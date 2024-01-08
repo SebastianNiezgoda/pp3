@@ -1,8 +1,11 @@
 public class Main{
     public static void main(String[] args) {
-        int[] points = {1,2,3,4,5};
-        float wyn =  Points.score(points);
-        System.out.println(wyn);
+       Shoping s1 = new Shoping();
+       
+       
+       s1.listAdd("banan");
+       s1.listAdd("japko");
+       s1.listDisplay();
 
         
     }
